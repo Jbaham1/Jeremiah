@@ -9,4 +9,9 @@ public class ShopController {
     public String welcome() {
         return "shop/home";
     }
+
+        @GetMapping("/shop/create")
+        public String create() {
+            return "shop/create";
+        }
 }
